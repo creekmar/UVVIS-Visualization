@@ -5,7 +5,7 @@ A way to visualize the T80 absorption data for the OPV lab automation project de
 Reads through all csv files containing T80 spectral data in a folder. The first column of the dataframe after the index should be Wavelength. 
 The rest of the columns will be the absorbance value at the specified timestamp. The data is visualized through the method described in Figure S10 of the article [here](https://doi.org/10.1126/science.adi1407).
 
-![UVVIS Visualization](Images/uvvis_visual.png)
+![UVVIS Visualization](uvvis_visual.png)
 
 1. The code will plot a line graph of Absorbance vs. Wavelength, where time is represented as the color of the plot.
 The time increases from dark to lighter color.
